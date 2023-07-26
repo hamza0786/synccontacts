@@ -2,7 +2,7 @@
   "name": "contactstestserver",
   "version": "1.0.0",
   "description": "Test server for SyncContacts app",
-  "main": "app.js",
+  "start": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
