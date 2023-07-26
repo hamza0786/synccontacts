@@ -4,10 +4,10 @@ const mysql = require('mysql');
 const bodyParser = require('body-parser');
 
 const connection = mysql.createConnection({
-	host : 'localhost',
-	user : 'id20940798_synccontacts',
-	password : 'Paksoft00@',
-	database : 'id20940798_synccontacts'
+	host : 'sql6.freemysqlhosting.net',
+	user : 'sql6635485',
+	password : 'UNVxXfkYeb',
+	database : 'sql6635485'
 });
 
 connection.connect();
