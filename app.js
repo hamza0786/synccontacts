@@ -1,7 +1,15 @@
 const express = require('express');
+const http = require('http');
 const app = express();
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
+
+const port = process.env.PORT || 5000;
+const server = http.createServer(app);
+
+server.listen(port, () => {
+	console.log('started on port ${port}');
+});
 
 const connection = mysql.createConnection({
 	host : 'sql6.freemysqlhosting.net',
